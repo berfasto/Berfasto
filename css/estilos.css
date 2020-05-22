@@ -103,6 +103,7 @@ nav {
 }
 
 .hamburguer>i {
+    color: #ffffff;
     font-size: 25px;
     line-height: 80px;
 }
@@ -469,11 +470,11 @@ footer {
 
     .enlaces-header {
         position: fixed;
-        background: #667db6;
+        background: rgb(96, 0, 126);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        background: -webkit-linear-gradient(to right, rgb(168, 0, 154), rgb(209, 0, 192), rgb(255, 0, 234), rgb(168, 0, 154));
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        background: linear-gradient(to right, rgb(168, 0, 154), rgb(209, 0, 192), rgb(255, 0, 234), rgb(168, 0, 154));
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         top: 0;
         right: 0;
@@ -494,7 +495,7 @@ footer {
     }
 
     .nav .enlaces-header a {
-        color: #fff;
+        color: rgb(255, 255, 255);
     }
 
     .hamburguer {
